@@ -1,0 +1,42 @@
+[
+    {
+        "Nome": "Maragogi",
+        "cidade": "Alagoas",
+        "pousadas":"Pousada Gamela"
+    },
+    {
+        "Nome": "Praia do Forte",
+        "cidade": "Bahia",
+        "pousadas":"Pousada Casa da Praia"
+    },
+    {
+        "Nome": "Porto de Galinhas",
+        "cidade": "Pernambuco",
+        "pousadas":"Pousada Ecoporto"
+    },
+    {
+        "Nome": "Praia da Baía do Sancho",
+        "cidade": "Fernando de Noronha",
+        "pousadas":"Pousada Solar do Pico"
+    },
+    {
+        "Nome": "Praia do Patacho",
+        "cidade": "São Miguel dos Milagres",
+        "pousadas":"Pousada Patacho"
+    },
+    {
+        "Nome": "Praia da Canoa Quebrada",
+        "cidade": "Ceará",
+        "pousadas":"Pousada Vila Canoa"
+    },
+    {
+        "Nome": "Praia do Espelho",
+        "cidade": "Porto Seguro",
+        "pousadas":"Pousada Brisas do Espelho"
+    },
+    {
+        "Nome": "Praia da Pipa",
+        "cidade": "Tibau do Sul",
+        "pousadas":"Pousada Pedra da Pipa"
+    },
+]
