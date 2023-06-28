@@ -1,0 +1,45 @@
+create database exemplo_4;
+use exemplo_4;
+
+create table departamento
+(
+codigo int primary key,
+NomeDepartamento varchar(20)
+);
+
+create table empregado
+(
+nome varchar(20),
+cod_dep int references departamento(codigo)
+);
+
+insert into departamento values (31, 'Vendas');
+insert into departamento values (33, 'Engenharia');
+insert into departamento values (34, 'Administrativo');
+insert into departamento values (35, 'Marketing');
+insert into departamento values (36, 'Contabilidade');
+
+insert into empregado values ('Gilberto', 31);
+insert into empregado values ('Raimundo', 33);
+insert into empregado values ('Carla', 33);
+insert into empregado values ('Daniela', 34);
+insert into empregado values ('Fernando', null);
+insert into empregado values ('Regina', null);
+
+select * from empregado;
+
+select nome, cod_dep, NomeDepartamento, codigo 
+from empregado inner join departamento 
+on empregado.cod_dep = departamento.codigo;
+
+select nome, cod_dep, NomeDepartamento, Codigo
+from empregado left join departamento 
+on empregado.cod_dep = departamento.codigo;
+
+select nome, cod_dep, NomeDepartamento, Codigo
+from empregado right join departamento 
+on empregado.cod_dep = departamento.codigo;
+
+select * from empregado cross join departamento;
+
+delete from empregado where nome = ('Regina');
