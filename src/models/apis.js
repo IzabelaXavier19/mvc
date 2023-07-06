@@ -3,12 +3,12 @@ import mongoose from 'mongoose'; /* mongoose é uma biblioteca de Modelagem de D
 const apiSchema = new mongoose.Schema(
     {
         nome: {type: String, required: true},
-        endereco: {type: String, require: true}
+        endereco: {type: String, require: true},
         salas: {type: Number, require: true}
 
     }
 )
 
-const apis = mongoose.model1('apis',apiSchema);
+const apis = mongoose.model('apis', apiSchema);
 
 export default  apis;

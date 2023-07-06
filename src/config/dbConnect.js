@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect("mongodb+srv://admin:ertyhb45@cluster0.gdxzyaz.mongodb.net/senac2");
+mongoose.connect("mongodb+srv://admin:Ertyhb45@cluster0.gdxzyaz.mongodb.net/senac");
 //A função connect guarda a string de conexão dentro dos parênteses.
 
 let db = mongoose.connection;

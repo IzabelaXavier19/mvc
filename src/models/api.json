@@ -1,54 +1,48 @@
 [
     {
-        "Cinemas": [
-            "Recife": {
-                "Nome": "UCI Kinoplex Recife Shopping",
+        "Cinemas": 
+            {
+                "nome": "UCI Kinoplex Recife Shopping",
                 "endereço": "Avenida Padre Carapuceiro 777 - Boa Viagem 51020-280 Recife",
                 "salas": 10
             },
             {
-                "Nome": "UCI Kinoplex Shopping Tacaruna",
+                "nome": "UCI Kinoplex Shopping Tacaruna",
                 "endereço": "Avenida Governador Agamenon Magalhães 153 - Santo Amaro 50100-010 Recife",
                 "salas": 8
             },
             {
-                "Nome": "Multiplex Boa Vista ",
+                "nome": "Multiplex Boa Vista ",
                 "endereço": "Rua Jose de Alencar 105 - Lj 202 - Boa Vista 50070-030 Recife",
                 "salas": 6
             },
             {
-                "Nome": "Cinemark Riomar Recife",
+                "nome": "Cinemark Riomar Recife",
                 "endereço": "Avenida República do Líbano, S/N - Loja 4001 - Pinan 51110-160 Recife",
                 "salas": 12
             },
             {
-                "Nome": "UUCI Kinoplex Plaza Casa Forte Shopping",
+                "nome": "UUCI Kinoplex Plaza Casa Forte Shopping",
                 "endereço": "Rua João Santos Filho 255 - Nível L-5 Loja 316 - Paranamirim 52060-615 Recife",
                 "salas": 5
             },
             {
-                "Nome": "Moviemax Rosa e Silva",
+                "nome": "Moviemax Rosa e Silva",
                 "endereço": "Avenida Rosa e Silva 1460 - Aflitos 52050-020 Recife",
                 "salas": 3
-            },
+            },            
             {
-                "Nome": "UCI Kinoplex de Lux Shopping Recife - Recife",
+                "nome": "UCI Kinoplex de Lux Shopping Recife - Recife",
                 "endereço": "Av .Padre Carapuceiro, 777 Loja BV 231 232 233 piso Bruno Veloso expansão, Boa Viagem, Recife - PE 51020-280 Recife",
                 "salas": 4
             },
             {
-                "Nome": "Cinema da Fundação Joaquim Nabuco",
+                "nome": "Cinema da Fundação Joaquim Nabuco",
                 "endereço": "Avenida Dezessete de Agosto 2187 - Casa Forte 52061-540 Recife",
                 "salas": 1
-            },
-
-            "Metropolitana":{
-                "Nome": "Cinema da Fundação Joaquim Nabuco",
-                "endereço": "Avenida Dezessete de Agosto 2187 - Casa Forte 52061-540 Recife",
-                "salas": 1
-
             }
-        ],
+
+        
         
     }
 ]
